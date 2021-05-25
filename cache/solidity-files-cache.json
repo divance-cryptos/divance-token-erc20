@@ -1,10 +1,46 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/josep/personal/hardhat-tutorial/contracts/Token.sol": {
-      "lastModificationDate": 1621285226436,
-      "contentHash": "6063c72cf27e3c06df02c7bb95aed943",
+    "/Users/josep/personal/divance-token-erc20/contracts/Token.sol": {
+      "lastModificationDate": 1621293879348,
+      "contentHash": "f58b841b9aaae7b86b335ca9559f5ac7",
       "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/Users/josep/personal/divance-token-erc20/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1621264078989,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
       "solcConfig": {
         "version": "0.8.0",
         "settings": {
@@ -29,10 +65,10 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        ">=0.4.22 <0.9.0"
       ],
       "artifacts": [
-        "Token"
+        "console"
       ]
     }
   }
